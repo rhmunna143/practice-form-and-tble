@@ -1,5 +1,49 @@
-
-body {
-    color:black;
+.search-container {
+    background-image: url("images/back1.svg"), linear-gradient(to right, rgb(214, 199, 199) , rgb(70, 21, 194));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 80vh;
+    color: white;
+    position: relative;
 }
 
+.search-box, .img, .anchor {
+    margin-left: 100px;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 3px 6px 3px 6px;
+}
+
+button:hover {
+    background-color: black;
+}
+
+form, h2 {
+    margin-left: 100px;
+    /* margin-top: 50px; */
+    line-height: 30px;
+}
+
+.form-container {
+    background-image: url("../images/back2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-size: cover;
+    height: 80vh;
+    color: white;
+}
+
+.form {
+    position: absolute;
+    margin-top: 80px;
+}
+
+hr {
+    height: 1px;
+    color: black;
+}

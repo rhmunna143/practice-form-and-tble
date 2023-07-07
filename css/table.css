@@ -1,0 +1,8 @@
+main {
+    background-image: url("../images/back2.jpg");
+    height: 100vh;
+    color: white;
+    background-position: cover;
+    background-repeat: no-repeat;
+
+}
