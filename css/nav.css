@@ -69,6 +69,7 @@
     padding: 20px 0;
     color: #fff;
     text-align: center;
+    height: 60vh;
   }
   
   .footer h3 {
@@ -85,5 +86,30 @@
   
   .copyright {
     font-size: 12px;
+    margin-top: 25px;
+  }
+  
+  /* social icons */
+  .social-media {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media li a {
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .social-media li a:hover {
+    background-color: #bbb;
   }
   

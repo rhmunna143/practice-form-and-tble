@@ -1,3 +1,6 @@
+.search {
+    position: relative;
+}
 .search-container {
     background-image: url("images/back1.svg"), linear-gradient(to right, rgb(214, 199, 199) , rgb(70, 21, 194));
     background-repeat: no-repeat;
