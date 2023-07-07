@@ -1,7 +1,14 @@
 * {
     box-sizing: border-box;
   }
-  
+
+  a {
+    color: rgb(0, 0, 0);
+  }  
+
+  a:hover {
+    background-color: white;
+  }  
   body{
     font-family: sans-serif;
     margin: 0;
@@ -21,6 +28,7 @@
   .logo {
     float: left;
     margin: 10px 0;
+    margin-left: 30px;
   }
   
   .logo img {
@@ -30,6 +38,7 @@
   .nav-links {
     float: right;
     margin: 10px 0;
+    margin-right: 100px;
   }
   
   .nav-links li {
