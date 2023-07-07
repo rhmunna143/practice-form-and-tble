@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
   
-  body {
+  body{
     font-family: sans-serif;
     margin: 0;
     padding: 0;
@@ -47,5 +47,34 @@
   .nav-links li a:hover {
     color: #000;
     background-color: white;
+  }
+
+  .navbar {
+    position: relative;
+  }
+  
+  /* Footer */
+
+  .footer {
+    background-color: #222;
+    padding: 20px 0;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .footer h3 {
+    margin-top: 0;
+  }
+  
+  .social-media {
+    margin-top: 10px;
+    li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+  }
+  
+  .copyright {
+    font-size: 12px;
   }
   

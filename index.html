@@ -3,9 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search and Feedback form</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="csss/form.css">
+    <title>Search and Feedback form</title>
+    <Style>
+        .search-container {
+            background-image: url("images/back1.svg"), linear-gradient(to right, rgb(214, 199, 199) , rgb(70, 21, 194));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 70vh;
+            color: white;
+        }
+
+        .search-box, .img, .anchor {
+            margin-left: 20px;
+        }
+
+        button {
+            background-color: blue;
+            border: none;
+            color: white;
+            padding: 3px 6px 3px 6px;
+        }
+
+        button:hover {
+            background-color: black;
+        }
+
+        form {
+            margin-left: 20px;
+            /* margin-top: 50px; */
+            line-height: 30px;
+        }
+
+        .form-container {
+            background-image: url("../images/back2.jpg");
+            background-repeat: no-repeat;
+            background-attachment: inherit;
+            background-size: cover;
+            height: 70vh;
+            color: white;
+        }
+
+        .form {
+            position: absolute;
+            margin-top: 50px;
+        }
+    </Style>
 
 </head>
 <body>
@@ -28,12 +74,78 @@
 
     <!-- main section -->
     <main>
+        <section class="search-container">
+            <div class="search-box">
+                <hr>
+                <label for="search-box">Search Your Image here:
+                    <input type="text" name="search-box" id="search">
+                    <button>Search</button>
+                </label>
+            </div>
 
+            <div class="img">
+                <img src="./images/search1.png" height="300px" alt="">
+            </div>
+
+            <div class="anchor">
+                <a href="https://google.com" target="_blank">For more click here</a>
+            </div>
+        </section>
+
+        <section class="form-container">
+            <div class="form">
+                <form action="none">
+                    <label for="name">
+                        Name: <br>
+                        <input type="text" name="name" id="name">
+                        <br>
+                    </label>
+
+                    <label for="">
+                        Date: <br>
+                        <input type="date" name="" id=""> <br>
+                    </label>
+
+                    <label for="">
+                            Comment: <br>
+                            <textarea name="" id="" cols="30" rows="7"></textarea> <br>
+                    </label>
+                    <button>Submit</button>
+                </form>
+            </div>
+        </section>
     </main>
 
     <!-- footer section -->
-    <footer>
-
+    <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3>About Us</h3>
+              <p>We are a team of passionate developers who are dedicated to creating innovative and user-friendly websites.</p>
+              <p>We believe that everyone should have access to the internet, and we are committed to making our websites accessible to everyone.</p>
+            </div>
+            <div class="col-md-4">
+              <h3>Contact Us</h3>
+              <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+              <p>Phone: +1 234 567 890</p>
+              <p>Address: 123 Main Street, Anytown, CA 12345</p>
+            </div>
+            <div class="col-md-4">
+              <h3>Follow Us</h3>
+              <ul class="social-media">
+                <li><a href="https://www.facebook.com/example"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/example"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/example"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/example"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="copyright">
+            &copy; 2023 Example Company. All rights reserved.
+          </div>
+        </div>
     </footer>
+      
 </body>
 </html>
