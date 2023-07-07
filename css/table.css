@@ -2,7 +2,58 @@ main {
     background-image: url("../images/back2.jpg");
     height: 100vh;
     color: white;
-    background-position: cover;
+    background-size: cover;
     background-repeat: no-repeat;
+    position: relative;
 
 }
+
+.title {
+    position: absolute;
+    top: 100px;
+}
+
+h2 {
+    margin-left: 100px;
+}
+
+table {
+    margin-left: 100px;
+    align-items: center;
+}
+
+.table {
+    position: absolute;
+    top: 200px
+}
+
+/* For the table */
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+    line-height: 30px;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
+  th {
+    background-color: #5f0e0e;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #a33d3d;
+  }
+  
+  .winner {
+    color: green;
+  }
+  
+  .loser {
+    color: red;
+  }
