@@ -15,6 +15,7 @@
             background-size: cover;
             height: 70vh;
             color: white;
+            position: relative;
         }
 
         .search-box, .img, .anchor {
@@ -49,7 +50,12 @@
 
         .form {
             position: absolute;
-            margin-top: 50px;
+            margin-top: 80px;
+        }
+
+        hr {
+            height: 1px;
+            color: black;
         }
     </Style>
 
@@ -75,8 +81,8 @@
     <!-- main section -->
     <main>
         <section class="search-container">
+            <hr>
             <div class="search-box">
-                <hr>
                 <label for="search-box">Search Your Image here:
                     <input type="text" name="search-box" id="search">
                     <button>Search</button>
@@ -92,6 +98,7 @@
             </div>
         </section>
 
+        <!-- feedback section -->
         <section class="form-container">
             <div class="form">
                 <form action="none">

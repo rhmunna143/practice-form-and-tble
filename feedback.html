@@ -5,6 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/nav.css">
     <title>Story Feedback</title>
+
+    <style>
+        main {
+            background-image: url("images/back2.jpg");
+            background-color: blue;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 130vh;
+            color: rgb(255, 255, 255);
+        }
+
+        .feedback-form {
+            margin-top: 50px;
+            position: absolute;
+        }
+
+        form {
+            margin-left: 30px;
+            line-height: 30px;
+        }
+
+        h2 {
+            margin-left: 30px;
+        }
+
+        button {
+            background-color: rgb(245, 59, 7);
+            border: none;
+            color: white;
+            padding: 3px 6px 3px 6px;
+        }
+
+        button:hover {
+            background-color: black;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -23,35 +59,93 @@
         </nav>
     </header>
 
-        <!-- footer section -->
-        <footer class="footer">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-4">
-                  <h3>About Us</h3>
-                  <p>We are a team of passionate developers who are dedicated to creating innovative and user-friendly websites.</p>
-                  <p>We believe that everyone should have access to the internet, and we are committed to making our websites accessible to everyone.</p>
-                </div>
-                <div class="col-md-4">
-                  <h3>Contact Us</h3>
-                  <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
-                  <p>Phone: +1 234 567 890</p>
-                  <p>Address: 123 Main Street, Anytown, CA 12345</p>
-                </div>
-                <div class="col-md-4">
-                  <h3>Follow Us</h3>
-                  <ul class="social-media">
-                    <li><a href="https://www.facebook.com/example"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/example"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/company/example"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="https://www.instagram.com/example"><i class="fab fa-instagram"></i></a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="copyright">
-                &copy; 2023 Example Company. All rights reserved.
-              </div>
+    <main>
+        <secttion class="feedback-form">
+            <form action="no">
+                <h1>Tell US Your Story</h1>
+                <label for="name">
+                    Your Name: <br>
+                    <input type="text" name="name" id="name"> <br>
+                </label>
+
+                <label for="Email">
+                    Your E-mail: <br>
+                    <input type="email" name="email" id="mail"> <br>
+                </label>
+
+                <label for="phone">
+                    Your Phone number: <br>
+                    <input type="number" name="phone" id="phone"> <br>
+                </label>
+
+                <label for="age">
+                    Age: <br>
+                    <input type="number" name="age" id="age"> <br>
+                </label>
+
+                <label for="gender">
+                    Gender: <br>
+                    <select name="gender" id="gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Others">Others</option>
+                        <option value="CantShare">I Do not want to share</option>
+                    </select> <br>
+                </label>
+
+                <label for="textarea">
+                    Your Story: <br>
+                    <textarea rows="10" cols="50">
+                        Share your story here...
+                    </textarea>
+                </label> <br>
+                <button>Submit</button>
+            </form>
+
+            <h2>Participants Rate here</h2>
+            <form action="none">
+                <label for="rate">
+                    Rating: <br>
+                    <select name="rate" id="rate">
+                        <option value="Good">Good</option>
+                        <option value="Excellent">Excellent</option>
+                        <option value="nothing">Not Good</option>
+                    </select>
+                </label>
+                <button>Submit</button> <br>
+            </form>
+        </secttion>
+    </main>
+
+    <!-- footer section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-4">
+                <h3>About Us</h3>
+                <p>We are a team of passionate developers who are dedicated to creating innovative and user-friendly websites.</p>
+                <p>We believe that everyone should have access to the internet, and we are committed to making our websites accessible to everyone.</p>
             </div>
-        </footer>
+            <div class="col-md-4">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                <p>Phone: +1 234 567 890</p>
+                <p>Address: 123 Main Street, Anytown, CA 12345</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Follow Us</h3>
+                <ul class="social-media">
+                <li><a href="https://www.facebook.com/example"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/example"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/example"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/example"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+            </div>
+            <div class="copyright">
+            &copy; 2023 Example Company. All rights reserved.
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
