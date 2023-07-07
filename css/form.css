@@ -11,6 +11,13 @@
     position: relative;
 }
 
+
+hr {
+    margin: 0px auto;
+    color: black; !important
+    height: 100%;
+}
+
 .search-box, .img, .anchor {
     margin-left: 100px;
 }
